@@ -39,37 +39,37 @@ const About = () => {
                                             }}
                                         >
                                             <SwiperSlide>
-                                                <img src="images/technology/js.png" alt="technology" />
+                                                <img src="./images/technology/js.png" alt="technology" />
                                             </SwiperSlide>
                                             <SwiperSlide>
-                                                <img src="images/technology/html.png" alt="technology" />
+                                                <img src="./images/technology/html.png" alt="technology" />
                                             </SwiperSlide>
                                             <SwiperSlide>
-                                                <img src="images/technology/node.png" alt="technology" />
+                                                <img src="./images/technology/node.png" alt="technology" />
                                             </SwiperSlide>
                                             <SwiperSlide>
-                                                <img src="images/technology/php.png" alt="technology" />
+                                                <img src="./images/technology/php.png" alt="technology" />
                                             </SwiperSlide>
                                             <SwiperSlide>
-                                                <img src="images/technology/python.png" alt="technology" />
+                                                <img src="./images/technology/python.png" alt="technology" />
                                             </SwiperSlide>
                                             <SwiperSlide>
-                                                <img src="images/technology/mongodb.png" alt="technology" />
+                                                <img src="./images/technology/mongodb.png" alt="technology" />
                                             </SwiperSlide>
                                             <SwiperSlide>
-                                                <img src="images/technology/mysql.png" alt="technology" />
+                                                <img src="./images/technology/mysql.png" alt="technology" />
                                             </SwiperSlide>
                                             <SwiperSlide>
-                                                <img src="images/technology/c.png" alt="technology" />
+                                                <img src="./images/technology/c.png" alt="technology" />
                                             </SwiperSlide>
                                             <SwiperSlide>
-                                                <img src="images/technology/sass.png" alt="technology" />
+                                                <img src="./images/technology/sass.png" alt="technology" />
                                             </SwiperSlide>
                                             <SwiperSlide>
-                                                <img src="images/technology/react.png" alt="technology" />
+                                                <img src="./images/technology/react.png" alt="technology" />
                                             </SwiperSlide>
                                             <SwiperSlide>
-                                                <img src="images/technology/css.png" alt="technology" />
+                                                <img src="./images/technology/css.png" alt="technology" />
                                             </SwiperSlide>
                                         </Swiper>
                                     </div>
