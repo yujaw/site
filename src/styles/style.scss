@@ -411,50 +411,50 @@ $color-wood-2: #410A09;
             }
         }
 
-        .project-container {
-            width: 100%;
-            height: 100%;
-            padding: 3rem;
+        // .project-container {
+        //     width: 100%;
+        //     height: 100%;
+        //     padding: 3rem;
 
-            .project {
-                margin: 3rem;
+        //     .project {
+        //         margin: 3rem;
 
-                .title-container {
-                    height: 3rem;
+        //         .title-container {
+        //             height: 3rem;
 
-                    // border: 1px solid magenta;
-                    .title {
-                        font-size: 3rem;
-                        font-weight: 800;
-                    }
-                }
+        //             // border: 1px solid magenta;
+        //             .title {
+        //                 font-size: 3rem;
+        //                 font-weight: 800;
+        //             }
+        //         }
 
-                .content {
-                    width: 100%;
-                    border: 1px solid lime;
-                    padding: 4rem;
+        //         .content {
+        //             width: 100%;
+        //             border: 1px solid lime;
+        //             padding: 4rem;
 
-                    .item {
-                        width: 100%;
-                        height: 100%;
-                        aspect-ratio: 5 / 2;
-                        display: flex;
-                        justify-content: space-between;
-                        align-items: center;
-                        border: 1px solid magenta;
+        //             .item {
+        //                 width: 100%;
+        //                 height: 100%;
+        //                 aspect-ratio: 5 / 2;
+        //                 display: flex;
+        //                 justify-content: space-between;
+        //                 align-items: center;
+        //                 border: 1px solid magenta;
 
-                        .image-container {
-                            height: 100%;
-                            border: 1px solid white;
-                        }
+        //                 .image-container {
+        //                     height: 100%;
+        //                     border: 1px solid white;
+        //                 }
 
-                        .text-container {
-                            height: 100%;
-                        }
-                    }
-                }
-            }
-        }
+        //                 .text-container {
+        //                     height: 100%;
+        //                 }
+        //             }
+        //         }
+        //     }
+        // }
 
         .contact-container {
             margin-top: calc(5rem + 5px);
@@ -908,7 +908,7 @@ $color-wood-2: #410A09;
 
                                 .left {
                                     // border: 1px solid magenta;
-                                    width: 15%;
+                                    width: 20%;
                                     height: 100%;
 
                                     .date {
@@ -979,6 +979,112 @@ $color-wood-2: #410A09;
                     }
                 }
 
+                .project-container {
+                    width: 100%;
+                    position: relative;
+
+                    .project {
+                        width: 100%;
+                        padding: 3rem 0;
+                        // margin: 0 5rem;
+                        display: flex;
+                        // justify-content: flex-start;
+                        align-items: flex-start;
+                        // border: 1px solid white;
+
+                        .title {
+                            font-weight: 700;
+                            font-size: 2rem;
+                            // line-height: 1rem;
+                            width: 50%;
+                            // border: 1px solid magenta;
+                        }
+
+                        .content {
+                            width: 50%;
+                            display: flex;
+                            flex-direction: column;
+                            gap: 2rem;
+
+
+                            .item {
+                                display: flex;
+                                align-items: flex-start;
+                                justify-content: space-evenly;
+
+                                .left {
+                                    // border: 1px solid magenta;
+                                    width: 20%;
+                                    height: 100%;
+
+                                    .date {
+                                        font-weight: 200;
+                                        font-size: .95rem;
+                                    }
+                                }
+
+                                .right {
+                                    // border: 1px solid magenta;
+                                    width: 70%;
+                                    height: 100%;
+                                    display: flex;
+                                    flex-direction: column;
+                                    align-items: flex-start;
+                                    justify-content: space-between;
+                                    gap: 1rem;
+                                    // justify-content: flex-start;
+
+                                    .top {
+                                        width: 100%;
+
+                                        .title {
+                                            font-weight: 500;
+                                            font-size: 1rem;
+                                            line-height: 1rem;
+                                        }
+                                    }
+
+                                    .bottom {
+                                        width: 100%;
+
+                                        .contents {
+                                            width: 70%;
+                                            font-weight: 200;
+                                            font-size: .95rem;
+                                            line-height: 1rem;
+
+                                            a {
+                                                font-size: 1rem;
+                                                padding: 0;
+                                                margin: 0;
+                                                text-decoration: underline;
+                                                color: #bbbbbb;
+                                                margin: 0 0 .5rem 0;
+                                            }
+
+                                            .sub {
+                                                padding: .1rem 0 0 0;
+                                                margin: 0;
+                                                font-size: 1rem;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+
+                    &::before {
+                        content: '';
+                        width: 100%;
+                        position: absolute;
+                        height: .5px;
+                        top: 0;
+                        left: 50%;
+                        translate: -50% 0;
+                        background: white;
+                    }
+                }
 
             }
         }

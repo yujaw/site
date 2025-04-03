@@ -324,42 +324,6 @@
     align-items: center;
     justify-content: center;
   }
-  body .project-container {
-    width: 100%;
-    height: 100%;
-    padding: 3rem;
-  }
-  body .project-container .project {
-    margin: 3rem;
-  }
-  body .project-container .project .title-container {
-    height: 3rem;
-  }
-  body .project-container .project .title-container .title {
-    font-size: 3rem;
-    font-weight: 800;
-  }
-  body .project-container .project .content {
-    width: 100%;
-    border: 1px solid lime;
-    padding: 4rem;
-  }
-  body .project-container .project .content .item {
-    width: 100%;
-    height: 100%;
-    aspect-ratio: 5/2;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    border: 1px solid magenta;
-  }
-  body .project-container .project .content .item .image-container {
-    height: 100%;
-    border: 1px solid white;
-  }
-  body .project-container .project .content .item .text-container {
-    height: 100%;
-  }
   body .contact-container {
     margin-top: calc(5rem + 5px);
     width: 100%;
@@ -724,7 +688,7 @@
     justify-content: space-evenly;
   }
   body .resume-container .resume .education-container .education .content .item .left {
-    width: 15%;
+    width: 20%;
     height: 100%;
   }
   body .resume-container .resume .education-container .education .content .item .left .date {
@@ -770,6 +734,89 @@
     font-size: 0.8rem;
   }
   body .resume-container .resume .education-container::before {
+    content: "";
+    width: 100%;
+    position: absolute;
+    height: 0.5px;
+    top: 0;
+    left: 50%;
+    translate: -50% 0;
+    background: white;
+  }
+  body .resume-container .resume .project-container {
+    width: 100%;
+    position: relative;
+  }
+  body .resume-container .resume .project-container .project {
+    width: 100%;
+    padding: 3rem 0;
+    display: flex;
+    align-items: flex-start;
+  }
+  body .resume-container .resume .project-container .project .title {
+    font-weight: 700;
+    font-size: 2rem;
+    width: 50%;
+  }
+  body .resume-container .resume .project-container .project .content {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  body .resume-container .resume .project-container .project .content .item {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+  }
+  body .resume-container .resume .project-container .project .content .item .left {
+    width: 20%;
+    height: 100%;
+  }
+  body .resume-container .resume .project-container .project .content .item .left .date {
+    font-weight: 200;
+    font-size: 0.95rem;
+  }
+  body .resume-container .resume .project-container .project .content .item .right {
+    width: 70%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 1rem;
+  }
+  body .resume-container .resume .project-container .project .content .item .right .top {
+    width: 100%;
+  }
+  body .resume-container .resume .project-container .project .content .item .right .top .title {
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1rem;
+  }
+  body .resume-container .resume .project-container .project .content .item .right .bottom {
+    width: 100%;
+  }
+  body .resume-container .resume .project-container .project .content .item .right .bottom .contents {
+    width: 70%;
+    font-weight: 200;
+    font-size: 0.95rem;
+    line-height: 1rem;
+  }
+  body .resume-container .resume .project-container .project .content .item .right .bottom .contents a {
+    font-size: 1rem;
+    padding: 0;
+    margin: 0;
+    text-decoration: underline;
+    color: #bbbbbb;
+    margin: 0 0 0.5rem 0;
+  }
+  body .resume-container .resume .project-container .project .content .item .right .bottom .contents .sub {
+    padding: 0.1rem 0 0 0;
+    margin: 0;
+    font-size: 1rem;
+  }
+  body .resume-container .resume .project-container::before {
     content: "";
     width: 100%;
     position: absolute;

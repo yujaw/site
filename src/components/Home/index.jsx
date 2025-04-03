@@ -2,7 +2,7 @@ import React, { Fragment, useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 // import Footer from '../Footer';
 // import { Swiper, SwiperSlide } from 'swiper/react';
-import Project from '../Project'
+// import Project from '../Project'
 import Navigation from '../Navigation';
 
 // TODO add a section below home that shows my works
@@ -49,11 +49,15 @@ const Home = () => {
         const tileIndex = col + (row - 1) * columns;
         const tile = document.querySelector(`.tile:nth-child(${tileIndex})`);
 
+        const color = ['orange', 'red', 'blue', 'green', 'yellow']
+
         if (tile) {
             tile.style.animation = 'hover 1s ease';
+            // tile.style.background = color.selec
 
             setTimeout(() => {
                 tile.style.animation = '';
+                tile.style.background = ''
             }, 800);
         }
     };
@@ -160,8 +164,8 @@ const Home = () => {
                                         <div className="navigation">
                                             {/* <Link to={'/portfolio'}>portfolio</Link> */}
                                             <Link to={'/outreach'}>outreach</Link>
-                                            <Link to={'/hobby'}>hobbies</Link>
                                             <Link to={'/resume'}>resume</Link>
+                                            <Link to={'/hobby'}>hobbies</Link>
                                             <Link to={'/about'}>about</Link>
                                         </div>
                                     </div>
@@ -193,9 +197,9 @@ const Home = () => {
                         </div>
                     </div>
                 </div>
-                <div className="home-content-wrapper">
+                {/* <div className="home-content-wrapper">
                     <Project />
-                </div>
+                </div> */}
             </div>
         </Fragment >
     );

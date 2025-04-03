@@ -23,6 +23,25 @@ const Resume = () => {
                                 <div className="item">
                                     <div className="left">
                                         <div className="date">
+                                            2025-Present
+                                        </div>
+                                    </div>
+                                    <div className="right">
+                                        <div className="top">
+                                            <div className="title">
+                                                Undergraduate Degree in Computer Engineering
+                                            </div>
+                                        </div>
+                                        <div className="bottom">
+                                            <div className="contents">
+                                                Wright State University, College of Engineering and Computer Science
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="item">
+                                    <div className="left">
+                                        <div className="date">
                                             2021-2023
                                         </div>
                                     </div>
@@ -34,7 +53,7 @@ const Resume = () => {
                                         </div>
                                         <div className="bottom">
                                             <div className="contents">
-                                                Department of Science Uniglobe Higher Secondary School.
+                                                Uniglobe Secondary School
                                             </div>
                                         </div>
                                     </div>
@@ -61,8 +80,8 @@ const Resume = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="education-container">
-                        <div className="education">
+                    <div className="project-container">
+                        <div className="project">
                             <div className="title">
                                 Projects
                             </div>

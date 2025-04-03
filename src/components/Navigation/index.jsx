@@ -50,8 +50,8 @@ const MainNav = () => {
                             <div className="navigation">
                                 {/* <Link to={'/portfolio'}>portfolio</Link> */}
                                 <Link to={'/outreach'}>outreach</Link>
-                                <Link to={'/hobby'}>hobbies</Link>
                                 <Link to={'/resume'}>resume</Link>
+                                <Link to={'/hobby'}>hobbies</Link>
                                 <Link to={'/about'}>about</Link>
                             </div>
                         ) : null
